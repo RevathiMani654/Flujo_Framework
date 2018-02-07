@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Exceeded maximum number attempts to login. Please try after some time !!!!]]>
+    </line>
+    <line>
+      <![CDATA[Enter a valid email address]]>
+    </line>
+    <line>
+      <![CDATA[Enter a valid username and password]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100438" started-at="2018-02-05T13:32:29Z" finished-at="2018-02-05T13:34:09Z">
+    <groups>
+      <group name="smoke">
+        <method signature="BackToLoginTest.BackToLogin()[pri:4, instance:scripts.BackToLoginTest@167c1fc]" name="BackToLogin" class="scripts.BackToLoginTest"/>
+        <method signature="ChangePasswordTest.ChangePassword()[pri:5, instance:scripts.ChangePasswordTest@1ee9faa]" name="ChangePassword" class="scripts.ChangePasswordTest"/>
+        <method signature="ForgotPasswordRecoveryTest.RecoveryPassword()[pri:3, instance:scripts.ForgotPasswordRecoveryTest@38203]" name="RecoveryPassword" class="scripts.ForgotPasswordRecoveryTest"/>
+        <method signature="LoginPageTest.InvalidLogin()[pri:2, instance:scripts.LoginPageTest@c285f4]" name="InvalidLogin" class="scripts.LoginPageTest"/>
+        <method signature="LoginTest.ClickLogin()[pri:1, instance:scripts.LoginTest@1f3ddb1]" name="ClickLogin" class="scripts.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="BackToLoginTest.BackToLogin()[pri:4, instance:scripts.BackToLoginTest@167c1fc]" name="BackToLogin" class="scripts.BackToLoginTest"/>
+        <method signature="ChangePasswordTest.ChangePassword()[pri:5, instance:scripts.ChangePasswordTest@1ee9faa]" name="ChangePassword" class="scripts.ChangePasswordTest"/>
+        <method signature="ForgotPasswordRecoveryTest.RecoveryPassword()[pri:3, instance:scripts.ForgotPasswordRecoveryTest@38203]" name="RecoveryPassword" class="scripts.ForgotPasswordRecoveryTest"/>
+        <method signature="LoginPageTest.InvalidLogin()[pri:2, instance:scripts.LoginPageTest@c285f4]" name="InvalidLogin" class="scripts.LoginPageTest"/>
+        <method signature="LoginTest.ClickLogin()[pri:1, instance:scripts.LoginTest@1f3ddb1]" name="ClickLogin" class="scripts.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Test" duration-ms="100438" started-at="2018-02-05T13:32:29Z" finished-at="2018-02-05T13:34:09Z">
+      <class name="scripts.ForgotPasswordRecoveryTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.ForgotPasswordRecoveryTest@38203]" name="openApplication" is-config="true" duration-ms="2963" started-at="2018-02-05T19:02:59Z" finished-at="2018-02-05T19:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="RecoveryPassword()[pri:3, instance:scripts.ForgotPasswordRecoveryTest@38203]" name="RecoveryPassword" duration-ms="20184" started-at="2018-02-05T19:03:02Z" finished-at="2018-02-05T19:03:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter a valid email address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RecoveryPassword -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.ForgotPasswordRecoveryTest@38203]" name="closeApplication" is-config="true" duration-ms="857" started-at="2018-02-05T19:03:22Z" finished-at="2018-02-05T19:03:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecoveryPassword status=SUCCESS method=ForgotPasswordRecoveryTest.RecoveryPassword()[pri:3, instance:scripts.ForgotPasswordRecoveryTest@38203] output=Enter a valid email address]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.ForgotPasswordRecoveryTest -->
+      <class name="scripts.LoginPageTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.LoginPageTest@c285f4]" name="openApplication" is-config="true" duration-ms="2726" started-at="2018-02-05T19:02:39Z" finished-at="2018-02-05T19:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:2, instance:scripts.LoginPageTest@c285f4]" name="InvalidLogin" duration-ms="16353" started-at="2018-02-05T19:02:42Z" finished-at="2018-02-05T19:02:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Exceeded maximum number attempts to login. Please try after some time !!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.LoginPageTest@c285f4]" name="closeApplication" is-config="true" duration-ms="846" started-at="2018-02-05T19:02:58Z" finished-at="2018-02-05T19:02:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginPageTest.InvalidLogin()[pri:2, instance:scripts.LoginPageTest@c285f4] output=Exceeded maximum number attempts to login. Please try after some time !!!!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.LoginPageTest -->
+      <class name="scripts.LoginTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.LoginTest@1f3ddb1]" name="openApplication" is-config="true" duration-ms="4225" started-at="2018-02-05T19:02:29Z" finished-at="2018-02-05T19:02:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="ClickLogin()[pri:1, instance:scripts.LoginTest@1f3ddb1]" name="ClickLogin" duration-ms="5092" started-at="2018-02-05T19:02:33Z" finished-at="2018-02-05T19:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.LoginTest@1f3ddb1]" name="closeApplication" is-config="true" duration-ms="833" started-at="2018-02-05T19:02:38Z" finished-at="2018-02-05T19:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickLogin status=SUCCESS method=LoginTest.ClickLogin()[pri:1, instance:scripts.LoginTest@1f3ddb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.LoginTest -->
+      <class name="scripts.BackToLoginTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.BackToLoginTest@167c1fc]" name="openApplication" is-config="true" duration-ms="4739" started-at="2018-02-05T19:03:23Z" finished-at="2018-02-05T19:03:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="BackToLogin()[pri:4, instance:scripts.BackToLoginTest@167c1fc]" name="BackToLogin" duration-ms="11733" started-at="2018-02-05T19:03:27Z" finished-at="2018-02-05T19:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackToLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.BackToLoginTest@167c1fc]" name="closeApplication" is-config="true" duration-ms="859" started-at="2018-02-05T19:03:39Z" finished-at="2018-02-05T19:03:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BackToLogin status=SUCCESS method=BackToLoginTest.BackToLogin()[pri:4, instance:scripts.BackToLoginTest@167c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.BackToLoginTest -->
+      <class name="scripts.ChangePasswordTest">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.ChangePasswordTest@1ee9faa]" name="openApplication" is-config="true" duration-ms="2783" started-at="2018-02-05T19:03:40Z" finished-at="2018-02-05T19:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="ChangePassword()[pri:5, instance:scripts.ChangePasswordTest@1ee9faa]" name="ChangePassword" duration-ms="25344" started-at="2018-02-05T19:03:43Z" finished-at="2018-02-05T19:04:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter a valid username and password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChangePassword -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.ChangePasswordTest@1ee9faa]" name="closeApplication" is-config="true" duration-ms="860" started-at="2018-02-05T19:04:08Z" finished-at="2018-02-05T19:04:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePassword status=SUCCESS method=ChangePasswordTest.ChangePassword()[pri:5, instance:scripts.ChangePasswordTest@1ee9faa] output=Enter a valid username and password]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.ChangePasswordTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
