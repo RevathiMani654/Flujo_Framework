@@ -14,6 +14,7 @@ public class LoginTest extends BaseTest
 		HomePage h=new HomePage(driver);
 		h.LoginButton();
 		Thread.sleep(4000);
+		//This 1st Test Script for Flujo Applications
 		
 	}	
 }
